@@ -441,6 +441,54 @@ private: System::Void sendInformation_Click(System::Object^  sender, System::Eve
 		{
 			this->h9->BackColor = System::Drawing::Color::Red;
 		}
+		else if (names[x] == "h10")
+		{
+			this->h10->BackColor = System::Drawing::Color::Red;
+		}
+		else if (names[x] == "h13")
+		{
+			this->h13->BackColor = System::Drawing::Color::Red;
+		}
+		else if (names[x] == "h15")
+		{
+			this->h15->BackColor = System::Drawing::Color::Red;
+		}
+		else if (names[x] == "h18")
+		{
+			this->h18->BackColor = System::Drawing::Color::Red;
+		}
+		else if (names[x] == "h23")
+		{
+			this->h23->BackColor = System::Drawing::Color::Red;
+		}
+		else if (names[x] == "h24")
+		{
+			this->h24->BackColor = System::Drawing::Color::Red;
+		}
+		else if (names[x] == "h25")
+		{
+			this->h25->BackColor = System::Drawing::Color::Red;
+		}
+		else if (names[x] == "h28")
+		{
+			this->h28->BackColor = System::Drawing::Color::Red;
+		}
+		else if (names[x] == "h30")
+		{
+			this->h30->BackColor = System::Drawing::Color::Red;
+		}
+		else if (names[x] == "h31")
+		{
+			this->h31->BackColor = System::Drawing::Color::Red;
+		}
+		else if (names[x] == "h37")
+		{
+			this->h37->BackColor = System::Drawing::Color::Red;
+		}
+		else if (names[x] == "h38")
+		{
+			this->h38->BackColor = System::Drawing::Color::Red;
+		}
 		else if (names[x] == "h40")
 		{
 			this->h40->BackColor = System::Drawing::Color::Red;

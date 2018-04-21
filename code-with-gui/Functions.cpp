@@ -106,8 +106,8 @@ void runProgram(Object^ start, Object^ end, string names[])
 	h37.setPointers(NULL, &h36, NULL, &h38);
 	h38.setPointers(NULL, &h37, NULL, &h39);
 	h39.setPointers(NULL, &h38, NULL, &h6);
-	h40.setPointers(NULL, &h39, &CL109, &h9);
-	h41.setPointers(NULL, &h40, NULL, &h40);
+	h40.setPointers(NULL, &h41, &CL109, &h9);
+	h41.setPointers(NULL, &h42, NULL, &h40);
 	h42.setPointers(&CL105, NULL, NULL, &h41);
 
 	CL110.setPointers(NULL, &h1, NULL, NULL);

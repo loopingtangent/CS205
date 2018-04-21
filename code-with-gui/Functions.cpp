@@ -138,9 +138,45 @@ void runProgram(Object^ start, Object^ end, string names[])
 	{
 		endStr = "CL110";
 	}
-	else
+	else if (end == "CL 112")
+	{
+		endStr = "CL112";
+	}
+	else if (end == "CL 115")
 	{
 		endStr = "CL115";
+	}
+	else if (end == "CL 125")
+	{
+		endStr = "CL125";
+	}
+	else if (end == "CL 126")
+	{
+		endStr = "CL126";
+	}
+	else if (end == "CL 127")
+	{
+		endStr = "CL127";
+	}
+	else if (end == "CL 128")
+	{
+		endStr = "CL128";
+	}
+	else if (end == "Cl 130")
+	{
+		endStr = "CL130";
+	}
+	else if (end == "CL 135")
+	{
+		endStr = "CL135";
+	}
+	else if (end == "CL 135.4")
+	{
+		endStr = "CL135_4";
+	}
+	else if (end == "CL 136")
+	{
+		endStr = "CL136";
 	}
 
 	if (start == "CL 105")
@@ -150,5 +186,49 @@ void runProgram(Object^ start, Object^ end, string names[])
 	else if (start == "CL 109")
 	{
 		CL109.beginSearchFor(endStr, searchOrder, names);
+	}
+	else if (start == "CL 110")
+	{
+		CL110.beginSearchFor(endStr, searchOrder, names);
+	}
+	else if (start == "CL 112")
+	{
+		CL112.beginSearchFor(endStr, searchOrder, names);
+	}
+	else if (start == "CL 115")
+	{
+		CL115.beginSearchFor(endStr, searchOrder, names);
+	}
+	else if (start == "CL 125")
+	{
+		CL125.beginSearchFor(endStr, searchOrder, names);
+	}
+	else if (start == "CL 126")
+	{
+		CL126.beginSearchFor(endStr, searchOrder, names);
+	}
+	else if (start == "CL 127")
+	{
+		CL127.beginSearchFor(endStr, searchOrder, names);
+	}
+	else if (start == "CL 128")
+	{
+		CL128.beginSearchFor(endStr, searchOrder, names);
+	}
+	else if (start == "CL 130")
+	{
+		CL130.beginSearchFor(endStr, searchOrder, names);
+	}
+	else if (start == "CL 135")
+	{
+		CL135.beginSearchFor(endStr, searchOrder, names);
+	}
+	else if (start == "CL 135.4")
+	{
+		CL135_4.beginSearchFor(endStr, searchOrder, names);
+	}
+	else if (start == "CL 136")
+	{
+		CL136.beginSearchFor(endStr, searchOrder, names);
 	}
 }
